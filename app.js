@@ -62,4 +62,4 @@ app.post('/message', function(request, response) {
 });
  
 // Start the web application, and serve on local port 3000
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
